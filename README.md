@@ -1,5 +1,6 @@
+# Example
 ```lua
-local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/x0581/Iris-Exploit-Bundle/main/bundle.lua"))().Init(game.CoreGui)
+local Iris = loadstring(game:HttpGet("https://raw.githubusercontent.com/wal-ly/iris/main/bundle.lua"))().Init(game.CoreGui)
 Iris:Connect(Iris.ShowDemoWindow)
 Iris:Connect(function()
     Iris.Window({"My First Window!"}) do
